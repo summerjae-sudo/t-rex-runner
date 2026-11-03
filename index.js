@@ -103,7 +103,7 @@
      * @enum {number}
      */
     Runner.config = {
-        ACCELERATION: 0.001,
+        ACCELERATION: 100,
         BG_CLOUD_SPEED: 0.2,
         BOTTOM_PAD: 10,
         CLEAR_TIME: 3000,
@@ -118,11 +118,11 @@
         MAX_CLOUDS: 6,
         MAX_OBSTACLE_LENGTH: 3,
         MAX_OBSTACLE_DUPLICATION: 2,
-        MAX_SPEED: 2000000000,
-        MIN_JUMP_HEIGHT: 350000,
+        MAX_SPEED: 20000,
+        MIN_JUMP_HEIGHT: 3500,
         MOBILE_SPEED_COEFFICIENT: 1.2,
         RESOURCE_TEMPLATE_ID: 'audio-resources',
-        SPEED: 150000000,
+        SPEED: 15000,
         SPEED_DROP_COEFFICIENT: 3,
         ARCADE_MODE_INITIAL_TOP_POSITION: 35,
         ARCADE_MODE_TOP_POSITION_PERCENT: 0.1
